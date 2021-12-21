@@ -40,6 +40,14 @@ class _RegisterState extends State<Register> {
                 }
             ),
             SizedBox(height: 20.0),
+            TextFormField(
+                obscureText: true,
+                decoration: textInputDecoration.copyWith(hintText: 'Confirm password'),
+                onChanged: (value) {
+                  print(value);
+                }
+            ),
+            SizedBox(height: 20.0),
             ElevatedButton(
               onPressed: () {
 

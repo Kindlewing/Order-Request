@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61254202245",
+    "project_id": "order-request-7fe54",
+    "storage_bucket": "order-request-7fe54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61254202245:android:c82851cd350b2e483ccaec",
+        "android_client_info": {
+          "package_name": "com.hudson.order_request_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61254202245-3tid9gsa8gf4ot04llul54lot5mm0h9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Q40pTPvV8q8g43eKop7teO0oFE8PGhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61254202245-3tid9gsa8gf4ot04llul54lot5mm0h9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

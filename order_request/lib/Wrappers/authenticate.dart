@@ -13,11 +13,15 @@ class _AuthenticateState extends State<Authenticate> {
 
   bool showLogin = true;
 
+  void _toggleView() {
+    setState(() => showLogin = !showLogin);
+  }
+
   @override
   Widget build(BuildContext context) {
     if(showLogin) {
-      return Login();
+      return Login(toggleView: _toggleView);
     }
-    return Register();
+    return Register(toggleView: _toggleView);
   }
 }

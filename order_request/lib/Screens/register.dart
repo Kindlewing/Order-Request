@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:order_request/Shared/constants.dart';
 
 class Register extends StatefulWidget {
-  const Register({Key? key}) : super(key: key);
+  final Function toggleView;
+  Register({ required this.toggleView, });
+
 
   @override
   _RegisterState createState() => _RegisterState();
@@ -14,6 +16,17 @@ class _RegisterState extends State<Register> {
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
+        actions: [
+          TextButton.icon(
+            label: Text(
+              'Login',
+            ),
+            icon: Icon(Icons.person),
+            onPressed: () {
+              widget.toggleView();
+            },
+          ),
+        ],
         title: Text(
           'Register',
           style: Theme.of(context).textTheme.headline4,

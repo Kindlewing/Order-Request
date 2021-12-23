@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using OrderRequestAPI.Models;
 
@@ -11,8 +12,7 @@ namespace OrderRequestAPI.Controllers
         public List<Order> GetOrders() {
             List<Order> list = new List<Order>();
             list.Add(new Order("2 PM", "Walmart"));
-            list.Add(new Order("1 PM", "Target"));
-            list.Add(new Order("10 AM", "Starbucks"));
+            Console.WriteLine(list.Find(e => e.TimeLeaving == "2 PM"));
             return list;
         }
     }

@@ -1,5 +1,3 @@
-
-
 namespace OrderRequestAPI.Models {
     public class Order {
         public string TimeLeaving { get; set; }

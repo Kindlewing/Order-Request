@@ -18,3 +18,4 @@
 /home/hudson/Development/Projects/Mobile/Order-Request/OrderRequestAPI/obj/Debug/netcoreapp3.1/OrderRequestAPI.dll
 /home/hudson/Development/Projects/Mobile/Order-Request/OrderRequestAPI/obj/Debug/netcoreapp3.1/OrderRequestAPI.pdb
 /home/hudson/Development/Projects/Mobile/Order-Request/OrderRequestAPI/obj/Debug/netcoreapp3.1/OrderRequestAPI.genruntimeconfig.cache
+/home/hudson/Development/Projects/Mobile/Order-Request/OrderRequestAPI/bin/Debug/netcoreapp3.1/.prettierrc.json

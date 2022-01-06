@@ -16,7 +16,6 @@ class _RegisterState extends State<Register> {
 
   String _email = '';
   String _password = '';
-  String _confirmPassword = '';
   String _error = '';
 
   @override
@@ -70,9 +69,6 @@ class _RegisterState extends State<Register> {
                       validator: (value) => value.toString() != _password ? 'Passwords do not match' : null,
                       obscureText: true,
                       decoration: textInputDecoration.copyWith(hintText: 'Confirm password'),
-                      onChanged: (value) {
-                        setState(() => _confirmPassword = value);
-                      }
                   ),
                   SizedBox(height: 20.0),
                   ElevatedButton(

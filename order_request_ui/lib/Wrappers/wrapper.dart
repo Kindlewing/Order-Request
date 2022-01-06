@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:order_request_ui/Models/User.dart';
-import 'package:order_request_ui/Screens/home.dart';
+import 'package:order_request_ui/Screens/Home/home.dart';
 import 'package:provider/provider.dart';
 
 import 'authenticate.dart';

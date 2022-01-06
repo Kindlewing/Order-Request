@@ -12,7 +12,8 @@ namespace OrderRequestAPI.Controllers
         public List<Order> GetOrders() {
             List<Order> list = new List<Order>();
             list.Add(new Order("2 PM", "Walmart"));
-            Console.WriteLine(list.Find(e => e.TimeLeaving == "2 PM"));
+            list.Add(new Order("1 PM", "Starbucks"));
+            list.Add(new Order("3 PM", "Target"));
             return list;
         }
     }

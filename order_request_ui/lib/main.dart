@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:order_request_ui/Models/User.dart';
+import 'package:order_request_ui/Models/RequestUser.dart';
 import 'package:order_request_ui/Services/authenticator.dart';
 import 'package:provider/provider.dart';
 import 'Wrappers/wrapper.dart';

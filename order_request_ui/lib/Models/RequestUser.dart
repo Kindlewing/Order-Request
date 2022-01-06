@@ -1,4 +1,4 @@
 class RequestUser {
   final String uid;
-  RequestUser({ required this.uid });
+  RequestUser({ required this.uid});
 }

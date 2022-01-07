@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TtmXiHWF4OARKD35DYSzshr9ZaJmLsfC9aA4oAB1buWE5Hg6tTBThDIcmlRDdYmRBGz9XkG2kkn4/01ImGgNXA==",
+  "success": true,
+  "projectFilePath": "/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/OrderRequestLib.csproj",
+  "expectedPackageFiles": [
+    "/home/hudson/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/hudson/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

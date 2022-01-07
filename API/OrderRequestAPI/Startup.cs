@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OrderRequestLib.Database;
 
 namespace OrderRequestAPI
 {
@@ -26,6 +28,9 @@ namespace OrderRequestAPI
         {
             services.AddControllers();
             services.AddCors();
+            services.AddDbContext<OrderRequestContext>(options => {
+                options.UseSqlServer("REPLACE WITH CONNECTION_STRING");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

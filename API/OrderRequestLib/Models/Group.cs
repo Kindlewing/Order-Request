@@ -1,4 +1,4 @@
-namespace OrderRequestAPI.Models {
+namespace OrderRequestLib.Models {
     public class Group {
         
     }

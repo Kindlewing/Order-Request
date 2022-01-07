@@ -1,4 +1,4 @@
-namespace OrderRequestAPI.Models {
+namespace OrderRequestLib.Models {
     public class User {
         public string UserID { get; set; }
         public string FirstName { get; set; }

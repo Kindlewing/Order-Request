@@ -30,10 +30,11 @@ class Database {
 
   Future<Response> addUser(RequestUser userToAdd) {
     return post(
-      Uri.parse('https://10.0.2.2:5001/api/adduser'),
+      Uri.parse('https://10.0.2.2:5001/api/user/adduser'),
       headers: <String, String> {
         'Content-Type': 'application/json; charset=UTF-8',
-      }
+      },
+      body: jsonEncode(userToAdd)
     );
   }
 }

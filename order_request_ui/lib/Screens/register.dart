@@ -16,6 +16,8 @@ class _RegisterState extends State<Register> {
 
   String _email = '';
   String _password = '';
+  String _firstName = '';
+  String _lastName = '';
   String _error = '';
 
   @override
@@ -49,6 +51,22 @@ class _RegisterState extends State<Register> {
                 children: <Widget>[
                   SizedBox(height: 20.0),
                   TextFormField(
+                      validator: (value) => value!.isEmpty ? 'First name is required' : null,
+                      decoration: textInputDecoration.copyWith(hintText: 'First name'),
+                      onChanged: (value) {
+                        setState(() => _firstName = value);
+                      }
+                  ),
+                  SizedBox(height: 20.0),
+                  TextFormField(
+                      validator: (value) => value!.isEmpty ? 'Last name is required' : null,
+                      decoration: textInputDecoration.copyWith(hintText: 'Last name'),
+                      onChanged: (value) {
+                        setState(() => _lastName = value);
+                      }
+                  ),
+                  SizedBox(height: 20.0),
+                  TextFormField(
                       validator: (value) => value!.isEmpty ? 'Email is required' : null,
                       decoration: textInputDecoration.copyWith(hintText: 'Email'),
                       onChanged: (value) {
@@ -74,7 +92,12 @@ class _RegisterState extends State<Register> {
                   ElevatedButton(
                     onPressed: () async {
                       if(_formKey.currentState!.validate()) {
-                        dynamic result = await _auth.register(_email.trim(), _password.trim());
+                        dynamic result = await _auth.register(
+                            _firstName.trim(),
+                            _lastName.trim(),
+                            _email.trim(),
+                            _password.trim()
+                        );
                         if(result == null) {
                           setState(() => _error = 'Please supply valid credentials');
                         }

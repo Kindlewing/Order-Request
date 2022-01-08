@@ -10,4 +10,11 @@ class RequestUser {
     this.lastName,
     this.email,
   });
+
+  Map<String, dynamic> toJson() => {
+    'userId': uid,
+    'firstName': firstName,
+    'lastName': lastName,
+    'email': email,
+  };
 }

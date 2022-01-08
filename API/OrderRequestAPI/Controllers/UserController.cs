@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 using OrderRequestLib.Database;
 using OrderRequestLib.Models;
@@ -13,6 +14,7 @@ namespace OrderRequestAPI.Controllers {
         [HttpPost]
         [Route("adduser")]
         public void AddUser([FromBody] User user) {
+            Console.WriteLine(user.FirstName);
             _context.Add<User>(user);
             _context.SaveChanges();
         }

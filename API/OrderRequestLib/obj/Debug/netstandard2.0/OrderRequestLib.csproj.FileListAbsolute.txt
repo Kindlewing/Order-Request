@@ -1,0 +1,9 @@
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.deps.json
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.dll
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.pdb
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csprojAssemblyReference.cache
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfoInputs.cache
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfo.cs
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.CoreCompileInputs.cache
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.dll
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.pdb

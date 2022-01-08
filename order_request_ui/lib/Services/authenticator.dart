@@ -1,5 +1,4 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:order_request_ui/Models/RequestUser.dart';
 
 class Authenticator {
@@ -11,8 +10,7 @@ RequestUser? _convertToFirebaseUser(User? firebaseUser) {
 
 
 Stream<RequestUser?> get user {
-  return _auth.authStateChanges().map(_convertToFirebaseUser);
-}
+  return _auth.authStateChanges().map(_convertToFirebaseUser);}
 
   Future login(String email, String password) async {
     try {

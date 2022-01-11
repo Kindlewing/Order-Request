@@ -1,4 +1,3 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
 using OrderRequestLib.Database;
 using OrderRequestLib.Models;
@@ -6,18 +5,17 @@ using OrderRequestLib.Models;
 namespace OrderRequestAPI.Controllers {
     [ApiController]
     [Route("api/[controller]")]
-    public class UserController : ControllerBase {
+    public class GroupController : ControllerBase {
         private readonly OrderRequestContext _context;
-        public UserController(OrderRequestContext context) {
+        public GroupController(OrderRequestContext context) {
             _context = context;
         }
 
         [HttpPost]
-        [Route("adduser")]
-        public void CreateUser([FromBody] User user) {
-            _context.Add<User>(user);
+        [Route("addgroup")]
+        public void CreateGroup([FromBody] Group group) {
+            _context.Add<Group>(group);
             _context.SaveChanges();
         }
-        
     }
 }

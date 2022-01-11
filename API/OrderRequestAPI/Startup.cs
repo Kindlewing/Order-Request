@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using OrderRequestLib.Database;
+using OrderRequestLib.DependencyInjection;
+using Unity;
 
 namespace OrderRequestAPI
 {
@@ -35,6 +37,10 @@ namespace OrderRequestAPI
             services.AddCors();
             services.AddControllers()
                 .AddControllersAsServices();
+        }
+
+        public void ConfigureContainer(IUnityContainer container) {
+            Injector.RegisterTypes(container);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

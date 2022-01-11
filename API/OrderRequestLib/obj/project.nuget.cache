@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VupWnRS1GRnlK3uZaEVc1lWaVTGtUL6jL1XpiCnohSihgCq3wMKP1Unw+xGbkfHDWpaW+VqH8+dCOZYmCrVsog==",
+  "dgSpecHash": "kHobtpXd5RFHH4c1yC04x49jxiAy7q1LKArGTYlzAehYRU6IcrL4Cev3fCPgvHjyXoo0MGM+hrTr/Ty8THbMSQ==",
   "success": true,
   "projectFilePath": "/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/OrderRequestLib.csproj",
   "expectedPackageFiles": [
@@ -115,7 +115,10 @@
     "/home/hudson/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/hudson/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/hudson/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/home/hudson/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/home/hudson/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/home/hudson/.nuget/packages/unity/5.11.10/unity.5.11.10.nupkg.sha512",
+    "/home/hudson/.nuget/packages/unity.abstractions/5.11.7/unity.abstractions.5.11.7.nupkg.sha512",
+    "/home/hudson/.nuget/packages/unity.container/5.11.11/unity.container.5.11.11.nupkg.sha512"
   ],
   "logs": []
 }

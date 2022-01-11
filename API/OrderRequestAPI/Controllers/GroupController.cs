@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using OrderRequestLib.Database;
+using OrderRequestLib.DependencyInjection;
 using OrderRequestLib.Models;
 
 namespace OrderRequestAPI.Controllers {

@@ -9,8 +9,8 @@ import 'package:order_request_ui/Models/RequestUser.dart';
 class Database {
 
   /*
-    Fetches the orders from the API;
-    Converts the response into a list to be returned;
+   * Fetches the orders from the API;
+   * Converts the response into a list to be returned;
   */
   Future<List<Order>?> getOrders() async {
     var url = Uri.parse('https://10.0.2.2:5001/api/orders');
@@ -28,6 +28,9 @@ class Database {
     }
   }
 
+  /*
+  *  Adds a user to the database and returns the response
+  */
   Future<Response> addUser(RequestUser userToAdd) {
     return post(
       Uri.parse('https://10.0.2.2:5001/api/user/adduser'),

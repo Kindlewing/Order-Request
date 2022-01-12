@@ -43,7 +43,6 @@ Stream<RequestUser?> get user {
           lastName: lastName, email: email));
       return user;
     } catch(error) {
-        print(error.toString());
         return null;
     }
   }
@@ -52,7 +51,6 @@ Stream<RequestUser?> get user {
     try {
       return await _auth.signOut();
     } catch(error) {
-      print(error.toString());
       return null;
     }
   }

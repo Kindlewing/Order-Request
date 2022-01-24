@@ -33,7 +33,7 @@ class OrderRequestApp extends StatelessWidget {
       initialData: null,
       value: Authenticator().user,
         child: MaterialApp(
-          title: 'Flutter Demo',
+          title: 'Order Request',
           home: Wrapper(),
           theme: ThemeData(
             backgroundColor: Colors.grey[900],

@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:order_request_ui/Models/RequestUser.dart';
-
 import 'database.dart';
 
 class Authenticator {

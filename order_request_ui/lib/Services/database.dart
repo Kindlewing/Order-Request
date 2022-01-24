@@ -5,7 +5,6 @@ import 'package:order_request_ui/Models/RequestUser.dart';
 
 
 class Database {
-
   /*
    * Fetches the orders from the API;
    * Converts the response into a list to be returned;

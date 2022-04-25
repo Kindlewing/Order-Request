@@ -6,15 +6,14 @@ import 'package:order_request_ui/Services/authenticator.dart';
 import 'package:provider/provider.dart';
 import 'Wrappers/wrapper.dart';
 
-class MyHttpOverrides extends HttpOverrides{
+class MyHttpOverrides extends HttpOverrides {
   @override
-  HttpClient createHttpClient(SecurityContext?  context){
+  HttpClient createHttpClient(SecurityContext? context) {
     return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
   }
 }
-
-
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,10 +29,10 @@ class OrderRequestApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),  
+      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
       child: StreamProvider<RequestUser?>.value(
-        initialData: null,
-        value: Authenticator().user,
+          initialData: null,
+          value: Authenticator().user,
           child: MaterialApp(
             title: 'Order Request',
             home: Wrapper(),
@@ -45,28 +44,25 @@ class OrderRequestApp extends StatelessWidget {
                 centerTitle: true,
               ),
               textTheme: TextTheme(
-                headline4: TextStyle(
-                  fontSize: 20.0,
-                  color: Colors.amberAccent[200],
-                  letterSpacing: 1.5,
-                ),
-                button: TextStyle(
-                  color: Colors.black,
-                  letterSpacing: 1.5,
-                )
-              ),
-              elevatedButtonTheme: ElevatedButtonThemeData(
-                style: ButtonStyle(
-                  textStyle: MaterialStateProperty.all(TextStyle(
+                  headline4: TextStyle(
+                    fontSize: 20.0,
+                    color: Colors.amberAccent[200],
+                    letterSpacing: 1.5,
+                  ),
+                  button: TextStyle(
                     color: Colors.black,
                     letterSpacing: 1.5,
                   )),
-                  backgroundColor: MaterialStateProperty.all(Colors.amberAccent[700])
-                )
-              ),
+              elevatedButtonTheme: ElevatedButtonThemeData(
+                  style: ButtonStyle(
+                      textStyle: MaterialStateProperty.all(TextStyle(
+                        color: Colors.black,
+                        letterSpacing: 1.5,
+                      )),
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.amberAccent[700]))),
             ),
-          )
-      ),
+          )),
     );
   }
 }

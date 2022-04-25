@@ -9,7 +9,7 @@ namespace OrderRequestAPI.Controllers {
     public class GroupController : ControllerBase {
         private readonly OrderRequestContext _context;
         public GroupController(OrderRequestContext context) {
-            _context = context;
+            _context = context; 
         }
 
         [HttpPost]

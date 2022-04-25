@@ -1,9 +1,33 @@
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.deps.json
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.dll
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.pdb
-/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csprojAssemblyReference.cache
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfoInputs.cache
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfo.cs
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.CoreCompileInputs.cache
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.dll
 /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.pdb
+<<<<<<< HEAD
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.deps.json
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.dll
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.pdb
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.AssemblyReference.cache
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfoInputs.cache
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfo.cs
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.CoreCompileInputs.cache
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.dll
+/home/hudson/Development/Classes/Mobile-Computing/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.pdb
+=======
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.deps.json
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.dll
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/bin/Debug/netstandard2.0/OrderRequestLib.pdb
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.AssemblyReference.cache
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfoInputs.cache
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.AssemblyInfo.cs
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.CoreCompileInputs.cache
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.dll
+/Users/aidanperez/Web/cps350-2022-final-order-request-finn-perez/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.pdb
+>>>>>>> 0d068b7157c592aa4ebd31e43bfeddeed493e968
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.csproj.AssemblyReference.cache
+/home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/obj/Debug/netstandard2.0/OrderRequestLib.GeneratedMSBuildEditorConfig.editorconfig

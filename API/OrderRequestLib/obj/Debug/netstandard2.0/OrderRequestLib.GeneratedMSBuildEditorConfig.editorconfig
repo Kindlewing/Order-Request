@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = OrderRequestLib
+build_property.ProjectDir = /home/hudson/Development/Projects/Mobile/Order-Request/API/OrderRequestLib/

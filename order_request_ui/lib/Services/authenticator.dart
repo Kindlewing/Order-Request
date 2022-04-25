@@ -23,7 +23,6 @@ Stream<RequestUser?> get user {
         User user = result.user!;
         return user;
     } catch(error) {
-        print(error.toString());
         return null;
     }
   }

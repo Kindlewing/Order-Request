@@ -1,7 +1,6 @@
 create table [OrderRequestDatabase.Users] (
     UserID varchar(28) not null,
-    FirstName varchar(50) not null,
-    LastName varchar(50) not null,
+    FullName varchar(100) not null,
     Email varchar(50) not null,
     primary key(UserID)
 );

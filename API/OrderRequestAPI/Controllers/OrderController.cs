@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using OrderRequestLib.Database;
 using OrderRequestLib.Models; 
+using System.Linq;
 
 namespace OrderRequestAPI.Controllers
 {
@@ -12,6 +13,11 @@ namespace OrderRequestAPI.Controllers
         private readonly OrderRequestContext _context;
         public OrderController(OrderRequestContext context) {
             _context = context;
+        }
+
+        [HttpGet]
+        public List<Order> GetAllOrders() {
+            return _context.Orders.ToList();
         }
 
         [HttpPost]

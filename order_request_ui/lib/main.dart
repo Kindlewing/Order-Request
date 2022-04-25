@@ -29,41 +29,44 @@ class OrderRequestApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return StreamProvider<RequestUser?>.value(
-      initialData: null,
-      value: Authenticator().user,
-        child: MaterialApp(
-          title: 'Order Request',
-          home: Wrapper(),
-          theme: ThemeData(
-            backgroundColor: Colors.grey[900],
-            appBarTheme: AppBarTheme(
-              backgroundColor: Colors.grey[850],
-              elevation: 0.0,
-              centerTitle: true,
-            ),
-            textTheme: TextTheme(
-              headline4: TextStyle(
-                fontSize: 20.0,
-                color: Colors.amberAccent[200],
-                letterSpacing: 1.5,
+    return GestureDetector(
+      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),  
+      child: StreamProvider<RequestUser?>.value(
+        initialData: null,
+        value: Authenticator().user,
+          child: MaterialApp(
+            title: 'Order Request',
+            home: Wrapper(),
+            theme: ThemeData(
+              backgroundColor: Colors.grey[900],
+              appBarTheme: AppBarTheme(
+                backgroundColor: Colors.grey[850],
+                elevation: 0.0,
+                centerTitle: true,
               ),
-              button: TextStyle(
-                color: Colors.black,
-                letterSpacing: 1.5,
-              )
-            ),
-            elevatedButtonTheme: ElevatedButtonThemeData(
-              style: ButtonStyle(
-                textStyle: MaterialStateProperty.all(TextStyle(
+              textTheme: TextTheme(
+                headline4: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.amberAccent[200],
+                  letterSpacing: 1.5,
+                ),
+                button: TextStyle(
                   color: Colors.black,
                   letterSpacing: 1.5,
-                )),
-                backgroundColor: MaterialStateProperty.all(Colors.amberAccent[700])
-              )
+                )
+              ),
+              elevatedButtonTheme: ElevatedButtonThemeData(
+                style: ButtonStyle(
+                  textStyle: MaterialStateProperty.all(TextStyle(
+                    color: Colors.black,
+                    letterSpacing: 1.5,
+                  )),
+                  backgroundColor: MaterialStateProperty.all(Colors.amberAccent[700])
+                )
+              ),
             ),
-          ),
-        )
+          )
+      ),
     );
   }
 }
